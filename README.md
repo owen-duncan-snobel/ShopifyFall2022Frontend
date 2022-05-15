@@ -35,3 +35,11 @@ _Below is an example of how you can instruct your audience on installing and set
    ```js
    REACT_APP_OPENAI_SECRET='ENTER YOUR API'; // do not use the enter the API key with the single quotes
    ```
+
+### Add ons Implemented
+
+For the Fun with AI site I ended up using local storage for persisting the users, prompts and responses on a page refresh. I also stored the users inputed text on refresh. I then created a Marquee component that had clickable text for finding quick prompts in the text input field.
+
+By clicking on any of the scrolling words it will automatically fill the input field with an example prompt that can be used.
+
+
